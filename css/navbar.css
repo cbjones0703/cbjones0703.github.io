@@ -1,8 +1,10 @@
 #navStyle {
     font-family: var(--font-one); 
-    height: 1000px;
-    background-image: url(https://images.pexels.com/photos/451589/pexels-photo-451589.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) !important;  
     background-size: cover; 
+    position: fixed; 
+    width: 100%;
+    float: top;  
+    opacity: 10%;
 }
 
 #listStyle {
