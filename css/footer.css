@@ -1,0 +1,45 @@
+.footer {
+    background-color: white; 
+    text-align: center;
+    font-size: 150%
+}
+
+.parallax3{ 
+      
+    /* The image used */
+    background-image: url("https://images.pexels.com/photos/235621/pexels-photo-235621.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+
+    /* Set a specific height */
+    height: 700px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.h1Footer {
+    font-family: 'Oleo Script', cursive;
+    text-align: center; 
+    font-size: 300%; 
+}
+
+.h1poem {
+    font-family: 'Oleo Script', cursive;
+    text-align: center; 
+    font-size: 350%; 
+    padding: 10%; 
+    padding-top: 10%;
+    color: white; 
+    text-shadow: 2px 2px 2px black; 
+}
+
+.h3poem {
+    font-family: 'Oleo Script', cursive;
+    text-align: right;
+    padding-right: 5%; 
+    font-size: 150%; 
+    color: white; 
+    text-shadow: 2px 2px 2px black; 
+}

@@ -1,5 +1,13 @@
-#contact {
-    width: 60%;
+.aboutMe {
+    width: 100%;
     background-color: lightgray; 
-    
+      
+}
+
+.contactMe {
+    text-align: center; 
+    align-content: center; 
+    margin: auto; 
+    padding-top: 3%;
+    width: 45%;
 }

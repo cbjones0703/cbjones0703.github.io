@@ -1,20 +1,24 @@
-body {
-    background-color: #FFFFFF; 
+.body {
+   background-color: white; 
 }
+/* 
+#grad {
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    
+  } */
 
-#carouselExampleIndicators {
-    height: 50%;
-    width: 50%; 
-    float: center; 
-    margin: 25%; 
-}
-
-.parallax { 
+  p {
+    font-family: 'Pragati Narrow', sans-serif;
+    font-size: 120%;
+  }
+  
+  .parallax1{ 
+      
     /* The image used */
-    background-image: url("https://images.pexels.com/photos/462024/pexels-photo-462024.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: url("https://images.pexels.com/photos/355770/pexels-photo-355770.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 
     /* Set a specific height */
-    height: 500px; 
+    height: 950px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -23,10 +27,46 @@ body {
     background-size: cover;
 }
 
-/* #myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;
-} */
+
+  .parallax2{ 
+      
+    /* The image used */
+    background-image: url("https://images.pexels.com/photos/153493/pexels-photo-153493.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+
+    /* Set a specific height */
+    height: 350px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxh1 {
+    color: black; 
+    text-align: center; 
+    font-family: 'Oleo Script', cursive;
+    padding-top: 20%;   
+    font-size: 400%;
+    text-shadow: 2px 2px 2px white; 
+}
+
+.parallaxh2 {
+    color: white; 
+    text-align: center; 
+    font-family: 'Oleo Script', cursive;
+    padding-top: 5%;   
+    font-size: 450%;
+    text-shadow: 2px 2px #424040
+}
+
+.card {
+    border-color: transparent; 
+    padding-top: 15%;
+    padding-bottom: 10%; 
+}
+
+.card-title {
+    font-size: 80%; 
+}

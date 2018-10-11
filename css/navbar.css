@@ -1,13 +1,5 @@
-#navStyle {
-    font-family: var(--font-one); 
-    background-size: cover; 
-    position: fixed; 
-    width: 100%;
-    float: top;  
-    opacity: 10%;
+#navBar {
+    position: fixed;
+    background-color: transparent !important; 
+     
 }
-
-#listStyle {
-    margin-left: 75%; 
-}
-

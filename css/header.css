@@ -1,7 +1,25 @@
-#jumboStyle {
-    background-image: url(https://images.pexels.com/photos/326243/pexels-photo-326243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); 
+.jumbotron1 {
+    height: 950px; 
+    background-image: url(https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-size: cover; 
+}
+
+.jumboH1 {
+    
     color: white;
-    width: 100%; 
+    position: relative; 
+    top: 40%;
+    right:43%;
+    font-family: 'Oleo Script', cursive;
+    font-size: 900%;
+    overflow: hidden;
+}
+
+
+.headerh2 {
+    color: black; 
     text-align: center; 
-    height: 920px; }
+    font-family: 'Oleo Script', cursive; 
+    font-size: 200%;
+    text-shadow: 2px 2px 2px white; 
+}

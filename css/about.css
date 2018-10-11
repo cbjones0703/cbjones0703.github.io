@@ -1,7 +1,40 @@
-#aboutMe {
-    font-size: 40px;
-    font: black; 
-    width: 60%;
-    background-color: beige; 
 
+
+.aboutMe {
+    width: 300px;
+    background:lightgray;
+    height: 600px;
+}
+
+.carousel-inner{
+    height: 550px;
+    width: 50%; 
+    position: relative;
+    background-size: cover;
+    top: 50%;
+    left: 25%;
+} 
+
+.jumbotron2 {
+    
+    padding: 10%;
+    text-align: center;
+    width: 60%; 
+    left: 19%; 
+    position: relative; 
+}
+
+.h1 {
+    font-family: 'Oleo Script', cursive;
+    text-align: center; 
+    font-size: 300%; 
+}
+
+.jumbotron3 {
+    padding-bottom: 5%;
+    padding-top: 5%;
+    text-align: center;
+    width: 60%; 
+    left: 19%; 
+    position: relative; 
 }
